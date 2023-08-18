@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [
+        "pkg config gtkmm-4.0"
+       ]
