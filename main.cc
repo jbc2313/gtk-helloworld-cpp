@@ -1,9 +1,11 @@
-#include <iostream>
+#include "helloworld.h"
+#include <gtkmm/application.h>
 
-using namespace std;
 
 int main(int argc, char *argv[]) {
 
+    auto app = Gtk::Application::create("org.gtkmm.example");
 
-    return 0;
-}
+    //Shows the window and returns when its closed
+    return app->make_window_and_run<HelloWorld>(argc, argv);
+};
