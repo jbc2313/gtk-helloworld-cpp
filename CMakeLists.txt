@@ -1,6 +1,7 @@
 #set(CMAKE_CXX_COMPILER "/usr/lib/llvm/16/bin/clang")
 
 set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(helloworld)
 
 cmake_minimum_required(VERSION 3.10)
